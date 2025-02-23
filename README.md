@@ -2,7 +2,10 @@
 
 Uma versão modificada do clássico Flappy Bird, onde o pássaro pode atirar e destruir os canos! Desenvolvido com Phaser 3.
 
-![Flappy Bird Screenshot](https://raw.githubusercontent.com/sourabhv/FlapPyBird/master/screenshot.png)
+![Flappy Bird Screenshot](./screenshot.png)
+
+## Descrição
+Este é um clone do Flappy Bird com uma mecânica adicional de tiro. O jogo mantém a jogabilidade clássica do Flappy Bird, onde você controla um pássaro amarelo que deve desviar de canos verdes, mas adiciona a capacidade de destruir os obstáculos atirando neles.
 
 ## Como Jogar
 
@@ -53,4 +56,44 @@ Uma versão modificada do clássico Flappy Bird, onde o pássaro pode atirar e d
 - [Phaser 3](https://phaser.io/phaser3) - Framework de jogos
 - Sprites do Flappy Bird original
 
-## Estrutura do Projeto 
+## Estrutura do Projeto
+
+```
+flappy-bird/
+│
+├── index.html      # Página principal do jogo
+├── game.js         # Lógica do jogo
+└── README.md       # Este arquivo
+```
+
+## Características
+
+- Física realista do pássaro
+- Geração procedural de obstáculos
+- Sistema de pontuação
+- Mecânica de tiro (característica única!)
+- Fundo e chão em movimento
+- Animação de rotação do pássaro
+- Sistema de Game Over com reinício
+
+## Dicas
+
+1. Mantenha um ritmo constante de pulos
+2. Use os tiros estrategicamente para criar passagens mais largas
+3. Não desperdice tiros - mire com precisão!
+4. Observe o padrão de movimento dos canos
+
+## Contribuindo
+
+Sinta-se à vontade para fazer um fork e enviar pull requests com melhorias!
+
+Algumas ideias para contribuições:
+- Adicionar sons
+- Implementar power-ups
+- Adicionar diferentes tipos de tiros
+- Criar um sistema de high score
+- Adicionar diferentes fases ou dificuldades
+
+## Licença
+
+Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes. 
